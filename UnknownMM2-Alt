@@ -25,7 +25,7 @@ end)
 
 local Section = Tab:NewSection("Adjustment")
 
-Section:NewSlider("Hitbox", "SliderInfo", 20, 2, function(s) -- 20 (MaxValue) | 2 (MinValue)
+Section:NewSlider("Hitbox (Lag) ", "SliderInfo", 20, 2, function(s) -- 20 (MaxValue) | 2 (MinValue)
    _G.HeadSize = s
 
 	_G.Disabled = true
