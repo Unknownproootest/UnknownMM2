@@ -22,10 +22,10 @@ Section:NewButton("Vynixu's Script", "script", function()
 loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
     print("Clicked")
 end)
-
+local Tab = Window:NewTab("Adjustment")
 local Section = Tab:NewSection("Adjustment")
 
-Section:NewSlider("Hitbox (Lag) ", "SliderInfo", 20, 2, function(s) -- 20 (MaxValue) | 2 (MinValue)
+Section:NewSlider("Hitbox (Lag) ", "SliderInfo", 12, 2, function(s) -- 12 (MaxValue) | 2 (MinValue)
    _G.HeadSize = s
 
 	_G.Disabled = true
@@ -56,6 +56,7 @@ Section:NewSlider("JumpPower", "SliderInfo", 500, 0, function(s) -- 500 (MaxValu
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
+local Tab = Window:NewTab("FE SCRIPT")
 local Section = Tab:NewSection("FE Emotes")
 
 Section:NewButton("Fe Emote", "script", function()
