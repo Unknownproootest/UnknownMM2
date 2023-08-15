@@ -75,12 +75,12 @@ Section:NewSlider("JumpPower", "SliderInfo", 500, 0, function(s) -- 500 (MaxValu
 end)
 
 local Section = Tab:NewSection("Not Adjustment")
-Section:NewButton("Hitbox Gui 2 (No lag) ", "script", function()
+Section:NewButton("Hitbox Gui 2 Min (No lag) ", "script", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownproootest/UnknownMM2/Hitbox-2-Loadstring/Hitbox-2'),true))()
     print("Clicked")
 end)
 
-Section:NewButton("Hitbox Gui 10 (No lag) ", "script", function()
+Section:NewButton("Hitbox Gui 10 Max (No lag) ", "script", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownproootest/UnknownMM2/Hitbox-10-max-Loadstring/Hitbox-10'),true))()
     print("Clicked")
 end)
