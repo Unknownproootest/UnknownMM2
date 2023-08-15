@@ -53,7 +53,18 @@ Section:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) |
 end)
 
 Section:NewSlider("JumpPower", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    game.Players.LocalPlayer.Character.Humanoid.JumpHeight = s
+end)
+
+local Section = Tab:NewSection("Not Adjustment")
+Section:NewButton("Hitbox Gui 2 (No lag) ", "script", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownproootest/UnknownMM2/Hitbox-2-Loadstring/Hitbox-2'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Hitbox Gui 10 Max (No lag) ", "script", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownproootest/UnknownMM2/Hitbox-10-max-Loadstring/Hitbox-10'),true))()
+    print("Clicked")
 end)
 
 local Tab = Window:NewTab("FE SCRIPT")
