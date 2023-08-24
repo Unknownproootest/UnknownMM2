@@ -102,7 +102,7 @@ local Tab = Window:NewTab("Fps")
 local Section = Tab:NewSection("Get more fps?")
 
 Section:NewButton("Fps boost", "script", function()
-
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownproootest/UnknownMM2/Fpsbooster-loadstring/UnknownMM2'),true))()
     print("Clicked")
 end)
 Section:NewButton("Fps Cap", "script", function()
