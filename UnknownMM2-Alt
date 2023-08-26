@@ -135,7 +135,7 @@ game:GetService('RunService').RenderStepped:connect(function()
 
 Tab:AddSlider({
 	Name = "Speed",
-	Min = 5,
+	Min = 16,
 	Max = 500,
 	Default = 5,
 	Color = Color3.fromRGB(255,255,255),
@@ -149,7 +149,7 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 
 Tab:AddSlider({
 	Name = "Jump Power",
-	Min = 5,
+	Min = 10,
 	Max = 500,
 	Default = 5,
 	Color = Color3.fromRGB(255,255,255),
