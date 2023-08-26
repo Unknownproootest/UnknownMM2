@@ -22,7 +22,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordis
 Tab:AddButton({
 	Name = "Shiftlock",
 	Callback = function()
-https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/gui/PermShiftlockGui
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/gui/PermShiftlockGui'))()
       		print("button pressed")
   	end    
 })
