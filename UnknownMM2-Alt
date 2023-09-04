@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "UnknownMM2", HidePremium = false,IntroText = "MM2 Unknown V1", SaveConfig = true, ConfigFolder = "MM2UNKNOWN"})
+local Window = OrionLib:MakeWindow({Name = "UnknownMM2", HidePremium = false,IntroText = "Murder Mystery 2 Unknown V1", SaveConfig = true, ConfigFolder = "MM2UNKNOWN"})
 
 local Tab = Window:MakeTab({
 	Name = "All Script",
